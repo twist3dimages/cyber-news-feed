@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Kodu Çek
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
 
       - name: Python Kur
         uses: actions/setup-python@v4
